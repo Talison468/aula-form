@@ -30,7 +30,7 @@ export function Home() {
                     className="w-full border rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
                 /><br />
                 {errors.senha && <p style={{ color: "red" }}>{errors.senha.message}</p>}
-                <div className='flex justify-between'>
+                <div className='flex justify-between items-center'>
                     <div>
                         <button className="mt-2 p-3 text-white rounded-lg bg-sky-500 hover:bg-sky-700" type='submit'>Enviar</button>
                     </div>
